@@ -1,8 +1,10 @@
-[![build status](https://github.com/asottile/reorder-python-imports/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/reorder-python-imports/actions/workflows/main.yml)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/asottile/reorder-python-imports/main.svg)](https://results.pre-commit.ci/latest/github/asottile/reorder-python-imports/main)
-
 reorder-python-imports
 ======================
+
+> [!NOTE]
+> This is a fork that applies the patch to leave the lines above the first import as is.
+>
+> Use `update_tag.py` to update the fork to the latest upstream tag.
 
 Tool for automatically reordering python imports.  Similar to `isort` but
 uses static analysis more.
